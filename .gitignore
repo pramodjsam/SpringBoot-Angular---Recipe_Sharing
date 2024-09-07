@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+/dist/
+.out/
+.DS_Store
+
+# Logs
+*.log
+*.log.*
+
+# Ignore OS generated files
+Thumbs.db
+Desktop.ini
+
+# Backend (Spring Boot)
+# Maven target folder
+/backend/target/
+
+# Gradle build files
+/backend/.gradle/
+/backend/build/
+
+# Eclipse/IntelliJ specific
+/backend/.classpath
+/backend/.project
+/backend/.settings
+/backend/.idea/
+
+# Ignore dependency libraries (Maven or Gradle)
+# Maven dependencies
+/backend/pom.xml.versionsBackup
+/backend/pom.xml.releaseBackup
+/backend/*.log
+
+# Gradle cache files
+/backend/gradle-app.setting
+
+# Ignore any environment configuration files (optional, if sensitive)
+*.env
+.env.local
+.env.production
+
+# Ignore any sensitive credentials (optional)
+secrets.yml
+application.yml
+application.properties
+
+# Package-lock or yarn lock (only include one depending on your package manager)
+package-lock.json
+yarn.lock
