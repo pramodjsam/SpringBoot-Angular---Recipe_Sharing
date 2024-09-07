@@ -1,0 +1,17 @@
+<!-- <router-outlet></router-outlet> -->
+<div>
+  <!-- NAVBAR -->
+  <div class="min-h-[91vh]">
+    @if(user){
+      <app-navbar />
+      <app-home-page />
+      <!-- FOOTER -->
+      <app-footer />
+    }
+    @else{
+      <app-auth />
+    }
+  </div>
+
+
+</div>
